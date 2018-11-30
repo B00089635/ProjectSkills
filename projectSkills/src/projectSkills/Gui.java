@@ -18,7 +18,7 @@ public class Gui extends JFrame {
 
 
 		//making changes to button 1
-		JButton b1 = new JButton("Add");//creating button
+		JButton b1 = new JButton("Add!");//creating button
 		p.add(b1, BorderLayout.LINE_START);//adding to panel and setting layout
 		b1.setBackground(new Color(190, 144, 212));//changing button color
 		b1.setFont(new Font("Calibri", Font.BOLD, 18));//sets font to calibri, bold and size 24
